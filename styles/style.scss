@@ -1,18 +1,77 @@
-div {
-    h1 {
-        color: red;
-    }
+body {
+    margin: 0;
+    padding: 0;
+    // font-family: 'Montserrat', sans-serif;
+    // font-family: 'Open Sans', sans-serif;
+    // font-family: 'Poppins', sans-serif;
+    // font-family: 'Roboto', sans-serif;
+    // font-family: 'Volkhov', serif;
 }
-span {
-    h1 {
-        color: blue;
-        &:hover {
-            color: green;
+/* Beginning of Header content stylesheet */
+.header_container {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 15%;
+    padding-top: 47px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_container {
+    .logo {
+        cursor: pointer;
+    }
+    .nav_bar {
+        width: 460px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &_item {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 22px;
+            color: #212832;
+            cursor: pointer
         }
     }
-}
-.jadoo_container {
-    &_header {
-        color: yellow;
+    .reg_container {
+        width: 279px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        &_login a {
+            width: 44px;
+            height: 22px;
+            color: #212832;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 17px;
+        }
+        &_sign a {
+            width: 102px;
+            height: 40px;
+            border: 1px solid #212832;
+            border-radius: 5px;
+            padding: 9px 22px;
+            color: #212832;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 17px;
+        }
+        &_laguage a {
+            width: 23px;
+            height: 22px;
+            color: #212832;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 17px;
+        }
+        &_laguage img {
+            width: 9px;
+            height: 5px;
+        }
     }
 }
