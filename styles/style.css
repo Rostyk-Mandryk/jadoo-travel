@@ -1,0 +1,10 @@
+div h1 {
+  color: red; }
+
+span h1 {
+  color: blue; }
+  span h1:hover {
+    color: green; }
+
+.jadoo_container_header {
+  color: yellow; }
