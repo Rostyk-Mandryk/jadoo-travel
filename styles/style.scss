@@ -15,7 +15,7 @@ body {
     background-repeat: no-repeat;
     background-position-x: right,right,left;
     background-size: 640px,700px 581px,230px;
-    background-position-y: 55px,0px,top;
+    background-position-y: 100px,0px,top;
     background-position-x: 80%, right ,right;
     
 }
@@ -88,6 +88,9 @@ body {
         }
     }
 }
+// <!-- ---- -->
+
+// Section 1 "Hero
 .hero_container {
     padding: 0 15%;
     display: flex;
@@ -104,6 +107,7 @@ body {
         line-height: 30px;
     }
     &_description {
+        padding-top: 24px;
         font-family: 'Volkhov', serif;
         color: #181E4B;       
         font-weight: 700;
@@ -111,11 +115,17 @@ body {
         line-height: 89px;
     }
     &_text {
+        padding-top: 30px;
         font-family: 'Poppins', sans-serif;
         color: #5E6282;
         font-weight: 500;
         font-size: 16px;
         line-height: 30px;
+    }
+    &_low { 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
     &_button {
         cursor: pointer;
@@ -132,7 +142,46 @@ body {
         color: #FFFFFF;
     }
     &_play {
-        color: #01996D;
+        padding: 0 2%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    &_play img {
+        padding-top: 38px;
+    }
+    &_play p{
+        font-family: 'Poppins', sans-serif;
+        color: #686D77;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 26px;
     }
     
+}
+// <!-- ---- -->
+.services_container {
+    padding-top: 105px;
+    padding: 0 15%;
+    height: 525px;
+    &_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__category {    
+        font-family: 'Poppins', sans-serif;
+        color: #5E6282;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    &_title {      
+        padding-top: 10px;
+        font-family: 'Volkhov', serif;
+        color: #14183E;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 64px;
+    }
 }
