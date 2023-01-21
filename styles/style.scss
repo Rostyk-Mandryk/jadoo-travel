@@ -92,11 +92,15 @@ body {
 
 // Section 1 "Hero
 .hero_container {
+    // @media screen and (max-width: 992px) { 
+    //     . { 
+    //         flex-direction: column; 
+    //     } 
+    // }
     padding: 0 15%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 1201px;
     height: 764px;
 
     &_title {
@@ -169,7 +173,7 @@ body {
         flex-direction: column;
         align-items: center;
     }
-    &__category {    
+    &_category {    
         font-family: 'Poppins', sans-serif;
         color: #5E6282;
         font-weight: 600;
@@ -184,4 +188,92 @@ body {
         font-size: 50px;
         line-height: 64px;
     }
+    &_categori {
+        display: flex;
+        justify-content: space-between;
+        height: 227px;
+        .cards_vector {
+            height: 5rem;
+        }
+        &_cards {
+            height: 227px;
+            padding-top: 110px;
+            text-align: center;
+            
+            &_title {
+                padding-top: 30px;
+                height: 27px;
+                font-family: 'Open Sans', sans-serif;
+                color: #1E1D4C;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 27px;
+            }
+            &_desc {
+                padding-top: 39px;
+                height: 78px;
+                font-family: 'Poppins', sans-serif;
+                color: #5E6282;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+    }
 }
+// media queries
+@media (max-width: 479px) {
+    body {
+        background-size: 329px,468px 200px,530px;
+        background-position-y: 95px,0px,top;
+        background-position-x: 13%, right ,right;
+    }
+    .nav_bar_item{
+      display: none;
+    }
+    .reg_container a{
+        display: none;
+    }
+    .reg_container_laguage img {
+        display: none;
+    }
+    .hero_container {
+        
+        &_title {
+            padding-top: 15px;
+            font-size: 0.875rem;
+            text-align: center;
+        }
+        &_description {
+            padding-top: 309px;
+            font-size: 2.3rem;
+            line-height: 37px;
+            text-align: center;
+        }
+        &_text {
+            text-align: center;
+            font-size: 0.875rem; 
+            line-height: 23px;
+        }
+        &_button {
+            font-size: 0.875rem; 
+        }
+        &_play p {
+            font-size: 0.875rem; 
+        }
+    }
+    .services_container {
+        
+        &_content h2{
+            text-align: center;
+            font-size: 0.8rem; 
+            line-height: 23px;
+        }
+        &_categori {
+            height: 900px;
+            display: flex;
+            flex-direction: row;
+        }
+    }
+  } 
+  

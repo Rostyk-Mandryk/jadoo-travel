@@ -79,7 +79,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 1201px;
   height: 764px; }
   .hero_container_title {
     font-family: 'Poppins', sans-serif;
@@ -140,7 +139,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .services_container__category {
+  .services_container_category {
     font-family: 'Poppins', sans-serif;
     color: #5E6282;
     font-weight: 600;
@@ -153,3 +152,66 @@ body {
     font-weight: 700;
     font-size: 50px;
     line-height: 64px; }
+  .services_container_categori {
+    display: flex;
+    justify-content: space-between;
+    height: 227px; }
+    .services_container_categori .cards_vector {
+      height: 5rem; }
+    .services_container_categori_cards {
+      height: 227px;
+      padding-top: 110px;
+      text-align: center; }
+      .services_container_categori_cards_title {
+        padding-top: 30px;
+        height: 27px;
+        font-family: 'Open Sans', sans-serif;
+        color: #1E1D4C;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27px; }
+      .services_container_categori_cards_desc {
+        padding-top: 39px;
+        height: 78px;
+        font-family: 'Poppins', sans-serif;
+        color: #5E6282;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px; }
+
+@media (max-width: 479px) {
+  body {
+    background-size: 329px,468px 200px,530px;
+    background-position-y: 95px,0px,top;
+    background-position-x: 13%, right ,right; }
+  .nav_bar_item {
+    display: none; }
+  .reg_container a {
+    display: none; }
+  .reg_container_laguage img {
+    display: none; }
+  .hero_container_title {
+    padding-top: 15px;
+    font-size: 0.875rem;
+    text-align: center; }
+  .hero_container_description {
+    padding-top: 309px;
+    font-size: 2.3rem;
+    line-height: 37px;
+    text-align: center; }
+  .hero_container_text {
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 23px; }
+  .hero_container_button {
+    font-size: 0.875rem; }
+  .hero_container_play p {
+    font-size: 0.875rem; }
+  .services_container_content h2 {
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 23px; }
+  .services_container_categori {
+    height: 900px;
+    display: flex;
+    flex-direction: row; } }
