@@ -214,17 +214,20 @@ body {
     color: #181E4B;
     font-weight: 700;
     font-size: 50px;
-    line-height: 64px; }
+    line-height: 64px;
+    text-align: center; }
   .destination_container_categori {
     padding-top: 60px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; }
     .destination_container_categori_cards {
-      margin: 20px;
+      margin: 20px auto;
       height: 457px;
       border-radius: 1.5rem;
       box-shadow: 0 15px 20px -1px rgba(0, 0, 0, 0.15); }
+      .destination_container_categori_cards:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; }
     .destination_container_categori_name_and_price {
       padding: 27px 8%;
       display: flex;
@@ -314,7 +317,9 @@ body {
     height: 1200px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; } }
+    justify-content: space-between; }
+  .destination_container_title {
+    font-size: 40px; } }
 
 @media (max-width: 479px) {
   body {
@@ -356,4 +361,6 @@ body {
     font-size: 1.2rem;
     line-height: 25px; }
   .services_container .cards_vector {
-    height: 6rem; } }
+    height: 6rem; }
+  .destination_container_title {
+    font-size: 40px; } }
