@@ -256,23 +256,30 @@ body {
             line-height: 23px;
         }
         &_button {
-            font-size: 0.875rem; 
+            font-size: 0.8rem; 
         }
         &_play p {
-            font-size: 0.875rem; 
+            font-size: 0.8rem; 
         }
     }
     .services_container {
         
-        &_content h2{
+        &_content h2 , h3 {
             text-align: center;
             font-size: 0.8rem; 
-            line-height: 23px;
+            line-height: 15px;
         }
         &_categori {
-            height: 900px;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
+        }
+        &_cards img ,h4 , p {
+            padding-top: 2px;
+            font-size: 1.2rem; 
+            line-height: 25px;
+        }
+        .cards_vector {
+            height: 6rem;
         }
     }
   } 

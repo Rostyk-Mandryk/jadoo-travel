@@ -204,14 +204,19 @@ body {
     font-size: 0.875rem;
     line-height: 23px; }
   .hero_container_button {
-    font-size: 0.875rem; }
+    font-size: 0.8rem; }
   .hero_container_play p {
-    font-size: 0.875rem; }
-  .services_container_content h2 {
+    font-size: 0.8rem; }
+  .services_container_content h2, .services_container h3 {
     text-align: center;
     font-size: 0.8rem;
-    line-height: 23px; }
+    line-height: 15px; }
   .services_container_categori {
-    height: 900px;
     display: flex;
-    flex-direction: row; } }
+    flex-direction: column; }
+  .services_container_cards img, .services_container h4, .services_container p {
+    padding-top: 2px;
+    font-size: 1.2rem;
+    line-height: 25px; }
+  .services_container .cards_vector {
+    height: 6rem; } }
