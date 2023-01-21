@@ -29,8 +29,27 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
-.header_container {
+
+    #burget_menu_icon {
+        position: relative;
+        display: none;
+        width: 70px;
+        height: 40px;
+
+        img {
+            width: 40px;
+            height: 40px;
+        }
+
+        #burget_menu {
+            display: none;
+            position: absolute;
+            width: 100px;
+            background-color: yellow;
+            left: -40px;
+        }
+    }
+
     .logo {
         cursor: pointer;
     }
@@ -62,6 +81,7 @@ body {
             text-decoration: none;
             font-weight: 500;
             font-size: 17px;
+            padding-left: 30px;
         }
         &_sign a {
             width: 102px;
@@ -164,7 +184,6 @@ body {
 .services_container {
     padding-top: 105px;
     padding: 0 15%;
-    height: 525px;
     &_content {
         display: flex;
         flex-direction: column;
@@ -257,6 +276,7 @@ body {
             
         }
         &_cards {
+            margin: 20px;
             height: 457px;
             border-radius: 1.5rem;
             box-shadow: 0 15px 20px -1px rgba(0, 0, 0, 0.15); 
@@ -296,6 +316,64 @@ body {
     }
 }
 /* Ending of of Section 3 Destinations" content stylesheet */
+
+// 1000px breakpoint
+@media (max-width: 1000px) {
+    .header_container {
+        .nav_bar_item {
+            display: none;
+        }
+        .reg_container a {
+            display: none;
+        }
+        .reg_container_laguage img {
+            display: none;
+        }
+        #burget_menu_icon {
+            display: block;
+        }
+    }
+
+    .hero_container {
+        justify-content: flex-start;
+        &_title {
+            padding-top: 60px;
+            font-size: 17px;
+            text-align: center;
+        }
+        &_description {
+            font-size: 50px;
+            line-height: 60px;
+            text-align: center;
+        }
+        &_text {
+            text-align: center;
+            font-size: 17px; 
+            line-height: 23px;
+        }
+        &_button {
+            font-size: 0.875rem; 
+        }
+        &_play p {
+            font-size: 0.875rem; 
+        }
+    }
+
+    .services_container {
+        
+        &_content h2 {
+            text-align: center;
+            font-size: 0.8rem; 
+            line-height: 23px;
+        }
+        &_categori {
+            height: 1200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+}
 
 
 
