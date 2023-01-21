@@ -74,6 +74,7 @@ body {
     width: 9px;
     height: 5px; }
 
+/* Beginning of Section 1 "Hero" content stylesheet */
 .hero_container {
   padding: 0 15%;
   display: flex;
@@ -131,6 +132,7 @@ body {
     font-size: 17px;
     line-height: 26px; }
 
+/* Beginning of Section 2 "Services" content stylesheet */
 .services_container {
   padding-top: 105px;
   padding: 0 15%;
@@ -179,6 +181,68 @@ body {
         font-size: 16px;
         line-height: 26px; }
 
+/* Ending of of Section 2 "Services" content stylesheet */
+/* Beginning of Section 3 "Destinations" content stylesheet */
+.destination_container {
+  padding: 0 15%;
+  padding-top: 123px;
+  height: 617px; }
+  .destination_container_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .destination_container_selling {
+    padding-top: 123px;
+    font-family: 'Poppins', sans-serif;
+    color: #5E6282;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px; }
+  .destination_container_title {
+    padding-top: 8px;
+    font-family: 'Volkhov', serif;
+    color: #181E4B;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px; }
+  .destination_container_categori {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .destination_container_categori_cards {
+      height: 457px;
+      border-radius: 1.5rem;
+      box-shadow: 0 15px 20px -1px rgba(0, 0, 0, 0.15); }
+    .destination_container_categori_name_and_price {
+      padding: 27px 8%;
+      display: flex;
+      justify-content: space-between; }
+      .destination_container_categori_name_and_price .country {
+        font-family: 'Poppins', sans-serif;
+        color: #5E6282;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 125%; }
+      .destination_container_categori_name_and_price .price {
+        height: 22px;
+        font-family: 'Poppins', sans-serif;
+        color: #5E6282;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 125%; }
+    .destination_container_categori_trip_duration {
+      padding: 0px 8%;
+      display: flex; }
+      .destination_container_categori_trip_duration .days {
+        height: 20px;
+        font-family: 'Poppins', sans-serif;
+        color: #5E6282;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 125%; }
+
+/* Ending of of Section 3 Destinations" content stylesheet */
 @media (max-width: 479px) {
   body {
     background-size: 329px,468px 200px,530px;
