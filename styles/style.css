@@ -195,7 +195,7 @@ body {
 /* Ending of of Section 2 "Services" content stylesheet */
 /* Beginning of Section 3 "Destinations" content stylesheet */
 .destination_container {
-  padding: 0 8%;
+  padding: 0 15%;
   padding-top: 123px; }
   .destination_container_content {
     display: flex;
@@ -221,6 +221,8 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; }
+    .destination_container_categori .cards_option {
+      cursor: pointer; }
     .destination_container_categori_cards {
       margin: 20px auto;
       height: 457px;
@@ -253,6 +255,54 @@ body {
         font-family: 'Poppins', sans-serif;
         color: #5E6282;
         font-weight: 500;
+        font-size: 16px;
+        line-height: 125%; }
+
+/* Ending of of Section 3 Destinations" content stylesheet */
+/* Beginning of Section 4 "Book a trip" content stylesheet */
+.bookatrip_container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  padding: 0 15%; }
+  .bookatrip_container_content {
+    padding-top: 186px; }
+    .bookatrip_container_content_easy {
+      height: 27px;
+      font-family: 'Poppins', sans-serif;
+      color: #5E6282;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px; }
+    .bookatrip_container_content_steps {
+      padding-top: 15px;
+      height: 130px;
+      font-family: 'Poppins', sans-serif;
+      color: #14183E;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 64px; }
+  .bookatrip_container_values_icon {
+    padding-top: 48px;
+    display: flex;
+    flex-direction: row; }
+    .bookatrip_container_values_icon_photo {
+      cursor: pointer; }
+    .bookatrip_container_values_icon_content {
+      padding: 0 5%; }
+      .bookatrip_container_values_icon_content_head {
+        height: 20px;
+        font-family: 'Poppins', sans-serif;
+        color: #5E6282;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 125%; }
+      .bookatrip_container_values_icon_content_title {
+        padding-top: 4px;
+        height: 40px;
+        font-family: 'Poppins', sans-serif;
+        color: #5E6282;
+        font-weight: 400;
         font-size: 16px;
         line-height: 125%; }
 

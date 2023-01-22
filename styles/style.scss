@@ -241,7 +241,7 @@ body {
 
 /* Beginning of Section 3 "Destinations" content stylesheet */
 .destination_container {
-    padding: 0 8%;
+    padding: 0 15%;
     padding-top: 123px;  
     &_content {
         display: flex;
@@ -272,8 +272,7 @@ body {
         flex-wrap: wrap;
         
         .cards_option {
-            
-            
+            cursor: pointer;
         }
         &_cards {
             margin: 20px auto;
@@ -320,7 +319,68 @@ body {
 }
 /* Ending of of Section 3 Destinations" content stylesheet */
 
+/* Beginning of Section 4 "Book a trip" content stylesheet */
+.bookatrip_container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    padding: 0 15%;
+    &_content {
+        padding-top: 186px;
+        &_easy {
+            height: 27px;
+            font-family: 'Poppins', sans-serif;
+            color: #5E6282;       
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px; 
+        }
+        &_steps {
+            padding-top: 15px;
+            height: 130px;
+            font-family: 'Poppins', sans-serif;
+            color: #14183E;      
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 64px; 
+        }
+    }
+    &_values {
+        &_icon {
+            padding-top: 48px;
+            display: flex;
+            flex-direction: row;
+            &_photo {
+                
+                cursor: pointer;
+            }
+        &_content {
+            padding: 0 5%;
+                &_head {   
+                    height: 20px;
+                    font-family: 'Poppins', sans-serif;
+                    color: #5E6282;      
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 125%;
+                }
+                &_title {
+                    padding-top: 4px;
+                    height: 40px;
+                    font-family: 'Poppins', sans-serif;
+                    color: #5E6282;      
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 125%;
+                }
+            }
+      
+        }
+    }
+}
+/* Ending of of Section 3 Destinations" content stylesheet */
 
+// gallery stylesheet
 .gallery_container {
     margin: 150px auto;
     padding: 0 15%;
