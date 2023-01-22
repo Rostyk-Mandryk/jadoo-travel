@@ -305,7 +305,7 @@ body {
   .bookatrip_container_card {
     border-radius: 1.5rem;
     box-shadow: 0 20px 30px -1px rgba(0, 0, 0, 0.15);
-    margin-top: 100px;
+    margin-top: 264px;
     position: relative; }
     .bookatrip_container_card_girl {
       cursor: pointer;
@@ -414,6 +414,9 @@ body {
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         bottom: -113px;
         right: 26px; } }
+  @media (max-width: 1200px) {
+    .bookatrip_container_card {
+      margin-top: 250px; } }
 
 /* Ending of of Section 4 "Book a trip" content stylesheet */
 .feedback_container {

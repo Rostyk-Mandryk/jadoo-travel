@@ -377,7 +377,7 @@ body {
     &_card {
         border-radius: 1.5rem;
         box-shadow: 0 20px 30px -1px rgba(0, 0, 0, 0.15); 
-        margin-top: 100px;
+        margin-top: 264px;
         position: relative;
         &_girl {
             cursor: pointer;
@@ -518,6 +518,11 @@ body {
                 bottom: -113px;
                 right: 26px;
             }
+        }
+    }
+    @media (max-width: 1200px) {
+        &_card {
+            margin-top: 250px;
         }
     }
 }
