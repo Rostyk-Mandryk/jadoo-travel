@@ -268,7 +268,6 @@ body {
   .bookatrip_container_content {
     padding-top: 186px; }
     .bookatrip_container_content_easy {
-      height: 27px;
       font-family: 'Poppins', sans-serif;
       color: #5E6282;
       font-weight: 600;
@@ -276,8 +275,7 @@ body {
       line-height: 27px; }
     .bookatrip_container_content_steps {
       padding-top: 15px;
-      height: 130px;
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Volkhov', serif;
       color: #14183E;
       font-weight: 700;
       font-size: 50px;
@@ -291,7 +289,6 @@ body {
     .bookatrip_container_values_icon_content {
       padding: 0 5%; }
       .bookatrip_container_values_icon_content_head {
-        height: 20px;
         font-family: 'Poppins', sans-serif;
         color: #5E6282;
         font-weight: 700;
@@ -299,14 +296,182 @@ body {
         line-height: 125%; }
       .bookatrip_container_values_icon_content_title {
         padding-top: 4px;
-        height: 40px;
         font-family: 'Poppins', sans-serif;
         color: #5E6282;
         font-weight: 400;
         font-size: 16px;
         line-height: 125%; }
+  .bookatrip_container_card {
+    border-radius: 1.5rem;
+    box-shadow: 0 20px 30px -1px rgba(0, 0, 0, 0.15);
+    margin: 0 0 -264px 10%;
+    position: relative; }
+    .bookatrip_container_card_girl {
+      cursor: pointer;
+      padding: 20px 25px;
+      border-radius: 24px; }
+      .bookatrip_container_card_girl_photo {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+    .bookatrip_container_card_content {
+      padding: 0 8%; }
+      .bookatrip_container_card_content .greece {
+        font-family: 'Poppins', sans-serif;
+        color: #080809;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 125%; }
+      .bookatrip_container_card_content .joseph {
+        padding-top: 13px;
+        font-family: 'Poppins', sans-serif;
+        color: #84829A;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 125%; }
+    .bookatrip_container_card_icon {
+      padding: 0 8%;
+      padding-top: 21px;
+      cursor: pointer; }
+      .bookatrip_container_card_icon_photo {
+        border-radius: 26px; }
+        .bookatrip_container_card_icon_photo:hover {
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
+    .bookatrip_container_card_people {
+      padding: 20px 0 31px 8%;
+      display: flex; }
+      .bookatrip_container_card_people_text {
+        font-family: 'Poppins', sans-serif;
+        color: #84829A;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 125%; }
+      .bookatrip_container_card_people_photo_heart {
+        cursor: pointer;
+        margin-left: 40%; }
+  .bookatrip_container_ongoing {
+    position: absolute;
+    margin-left: 823px;
+    margin-top: 420px;
+    background: #FFFFFF;
+    width: 263px;
+    height: 129px;
+    display: flex;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 18px; }
+    .bookatrip_container_ongoing_photo {
+      cursor: pointer;
+      padding: 20px 25px; }
+    .bookatrip_container_ongoing_content {
+      padding: 0 12px; }
+      .bookatrip_container_ongoing_content .ongo {
+        padding-top: 16px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 125%; }
+      .bookatrip_container_ongoing_content .rome {
+        padding-top: 6px;
+        font-family: 'Poppins', sans-serif;
+        color: #080809;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 125%; }
+      .bookatrip_container_ongoing_content .purpur {
+        padding-top: 14px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 125%;
+        color: #8A79DF; }
+      .bookatrip_container_ongoing_content .completed {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 125%;
+        color: #080809; }
+      .bookatrip_container_ongoing_content .line {
+        margin-top: 10px;
+        border-radius: 30px;
+        background: #F5F5F5;
+        height: 5px; }
+      .bookatrip_container_ongoing_content .forty {
+        border-radius: 30px;
+        height: 100%;
+        width: 40%;
+        background-color: #8A79DF; }
 
-/* Ending of of Section 3 Destinations" content stylesheet */
+/* Ending of of Section 4 "Book a trip" content stylesheet */
+.feedback_container {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 15%; }
+  .feedback_container_heading_title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #5E6282;
+    padding-bottom: 20px; }
+  .feedback_container_heading_description {
+    width: 410px;
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #14183E; }
+  .feedback_container_card {
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    height: 250px;
+    width: 504px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative; }
+    .feedback_container_card_message {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 32px;
+      color: #5E6282; }
+    .feedback_container_card_id_name {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      color: #5E6282; }
+    .feedback_container_card_id_location {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      color: #5E6282; }
+    .feedback_container_card_image {
+      position: absolute;
+      top: -40px;
+      left: -40px; }
+  @media (max-width: 1200px) {
+    .feedback_container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .feedback_container_heading {
+        text-align: center; }
+      .feedback_container_card {
+        height: auto;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0; }
+        .feedback_container_card_id {
+          margin-top: 30px; } }
+  @media (max-width: 479px) {
+    .feedback_container_header_description {
+      font-size: 40px; } }
+
 .gallery_container {
   margin: 150px auto;
   padding: 0 15%;
