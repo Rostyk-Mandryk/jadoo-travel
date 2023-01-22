@@ -262,8 +262,9 @@ body {
 /* Beginning of Section 4 "Book a trip" content stylesheet */
 .bookatrip_container {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   padding: 0 15%; }
   .bookatrip_container_content {
     padding-top: 186px; }
@@ -304,7 +305,7 @@ body {
   .bookatrip_container_card {
     border-radius: 1.5rem;
     box-shadow: 0 20px 30px -1px rgba(0, 0, 0, 0.15);
-    margin: 0 0 -264px 10%;
+    margin-top: 100px;
     position: relative; }
     .bookatrip_container_card_girl {
       cursor: pointer;
@@ -349,8 +350,8 @@ body {
         margin-left: 40%; }
   .bookatrip_container_ongoing {
     position: absolute;
-    margin-left: 823px;
-    margin-top: 420px;
+    bottom: 53px;
+    right: -106px;
     background: #FFFFFF;
     width: 263px;
     height: 129px;
@@ -398,6 +399,21 @@ body {
         height: 100%;
         width: 40%;
         background-color: #8A79DF; }
+  @media (max-width: 479px) {
+    .bookatrip_container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .bookatrip_container_content_easy {
+        text-align: center;
+        font-size: 25px; }
+      .bookatrip_container_content_steps {
+        text-align: center;
+        font-size: 40px; }
+      .bookatrip_container_ongoing {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        bottom: -113px;
+        right: 26px; } }
 
 /* Ending of of Section 4 "Book a trip" content stylesheet */
 .feedback_container {
