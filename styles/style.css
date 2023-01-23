@@ -349,13 +349,13 @@ body {
         cursor: pointer;
         margin-left: 40%; }
   .bookatrip_container_ongoing {
+    display: flex;
     position: absolute;
     bottom: 53px;
     right: -106px;
     background: #FFFFFF;
     width: 263px;
     height: 129px;
-    display: flex;
     box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
     border-radius: 18px; }
     .bookatrip_container_ongoing_photo {
@@ -554,6 +554,56 @@ body {
     justify-content: space-between; }
   .destination_container_title {
     font-size: 40px; } }
+
+.subscribe_container {
+  padding: 0 15%; }
+  .subscribe_container_section {
+    position: relative;
+    border-radius: 3.5rem 1.25rem 1.25rem;
+    background-color: #f6f3fd;
+    height: 407px;
+    margin: 13px auto; }
+    .subscribe_container_section .send {
+      position: absolute;
+      left: auto;
+      top: -8%;
+      right: -2%;
+      bottom: 0%;
+      cursor: pointer; }
+    .subscribe_container_section .subscribe {
+      padding-top: 79px;
+      font-family: 'Poppins';
+      text-align: center;
+      color: #5E6282;
+      font-weight: 600;
+      font-size: 33px;
+      line-height: 54px; }
+    .subscribe_container_section_email {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      padding-top: 74px; }
+      .subscribe_container_section_email .icon_email {
+        position: absolute;
+        left: 31%;
+        top: 75%;
+        right: 0%;
+        bottom: 0%;
+        cursor: pointer; }
+      .subscribe_container_section_email #your_email {
+        width: 300px;
+        height: 40px;
+        border-radius: 7px;
+        margin: 0 5px 0 0;
+        border: none;
+        padding: 0 5%; }
+      .subscribe_container_section_email #sub_btn {
+        cursor: pointer;
+        width: 100px;
+        border-radius: 7px;
+        border: none;
+        background: #FF946D;
+        color: wheat; }
 
 @media (max-width: 479px) {
   body {

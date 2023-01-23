@@ -430,7 +430,7 @@ body {
                 font-size: 16px;
                 line-height: 125%;
             }
-            &_photo { 
+            &_photo {   
                 &_heart {
                   cursor: pointer;
                   margin-left: 40%;
@@ -439,13 +439,13 @@ body {
         }
     }
     &_ongoing {
+        display: flex;
         position: absolute;
         bottom: 53px;
         right: -106px;
         background: #FFFFFF;
         width: 263px;
         height: 129px;
-        display: flex;
         box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
         border-radius: 18px;
         &_photo {
@@ -498,6 +498,7 @@ body {
             }
         }
     }
+    
     @media (max-width: 479px) {
         & {
             flex-direction: column;
@@ -737,7 +738,63 @@ body {
         }
     }
 }
-
+.subscribe_container {
+    padding: 0 15%;
+    &_section {
+        position: relative;
+        border-radius: 3.5rem 1.25rem 1.25rem;
+        background-color: #f6f3fd; 
+        height: 407px;
+        margin: 13px auto;
+        .send {
+            position: absolute;
+            left: auto;
+            top: -8%;
+            right: -2%;
+            bottom: 0%;
+            cursor: pointer;
+        }
+        .subscribe {
+            padding-top: 79px;
+            font-family: 'Poppins';
+            text-align: center;
+            color: #5E6282;
+            font-weight: 600;
+            font-size: 33px;
+            line-height: 54px;
+        }
+        &_email {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            padding-top: 74px;
+            .icon_email {
+                position: absolute;
+                left: 31%;
+                top: 75%;
+                right: 0%;
+                bottom: 0%;
+                cursor: pointer;
+            }
+            #your_email {
+                width: 300px;
+                height: 40px;
+                border-radius: 7px;
+                margin: 0 5px 0 0;
+                border: none;
+                padding: 0 5%;
+            }
+            #sub_btn {
+                cursor: pointer;
+                width: 100px;
+                border-radius: 7px;
+                border: none;
+                background: #FF946D;
+                color: wheat;
+            }
+        }
+    }
+}
 
 
 // media queries 479px
