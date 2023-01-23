@@ -522,8 +522,28 @@ body {
         }
     }
     @media (max-width: 1200px) {
-        &_card {
-            margin-top: 250px;
+        & {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &_card {
+                margin-top: 100px;
+            }
+            &_content {
+                &_easy {
+                    text-align: center;
+                    font-size: 25px;
+                }
+                &_steps {
+                    text-align: center;
+                    font-size: 40px;
+                }
+            }
+            &_ongoing {
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                bottom: -113px;
+                right: 26px;
+            }
         }
     }
 }
@@ -742,7 +762,7 @@ body {
     padding: 0 15%;
     &_section {
         position: relative;
-        border-radius: 3.5rem 1.25rem 1.25rem;
+        border-radius: 129px 20px 20px 20px;
         background-color: #f6f3fd; 
         height: 407px;
         margin: 13px auto;
@@ -770,8 +790,8 @@ body {
             padding-top: 74px;
             .icon_email {
                 position: absolute;
-                left: 31%;
-                top: 75%;
+                left: 310px;
+                top: 84px;
                 right: 0%;
                 bottom: 0%;
                 cursor: pointer;
@@ -782,15 +802,19 @@ body {
                 border-radius: 7px;
                 margin: 0 5px 0 0;
                 border: none;
-                padding: 0 5%;
+                padding: 0 10%;
             }
             #sub_btn {
                 cursor: pointer;
                 width: 100px;
+                height: 40px;
                 border-radius: 7px;
                 border: none;
                 background: #FF946D;
                 color: wheat;
+                &:hover {
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                }
             }
         }
     }
