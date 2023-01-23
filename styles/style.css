@@ -433,6 +433,7 @@ body {
         right: 26px; } }
 
 /* Ending of of Section 4 "Book a trip" content stylesheet */
+/* Beginning of Section 5 "Feedback" content stylesheet */
 .feedback_container {
   margin-top: 200px;
   display: flex;
@@ -505,6 +506,8 @@ body {
     .feedback_container_header_description {
       font-size: 40px; } }
 
+/* Ending of of Section 5 "Feedback" content stylesheet */
+/* Beginning of Section 6 "Gallery" content stylesheet */
 .gallery_container {
   margin: 150px auto;
   padding: 0 15%;
@@ -569,6 +572,8 @@ body {
   .destination_container_title {
     font-size: 40px; } }
 
+/* Ending of of Section 6 "Gallery" content stylesheet */
+/* Beginning of Section 7 "Subscribe" content stylesheet */
 .subscribe_container {
   padding: 0 15%; }
   .subscribe_container_section {
@@ -622,6 +627,9 @@ body {
         .subscribe_container_section_email #sub_btn:hover {
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
 
+/* Ending of of Section 7 "Subscribe" content stylesheet */
+/* Beginning of Footer content stylesheet */
+/* Ending of of Footer content stylesheet */
 @media (max-width: 479px) {
   body {
     background-size: 329px,468px 200px,530px;

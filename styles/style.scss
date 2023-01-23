@@ -551,7 +551,7 @@ body {
 
 /* Ending of of Section 4 "Book a trip" content stylesheet */
 
-// feedback stylesheet
+/* Beginning of Section 5 "Feedback" content stylesheet */
 .feedback_container {
     margin-top: 200px;
     display: flex;
@@ -658,7 +658,9 @@ body {
         }
     }
 }
-// gallery stylesheet
+/* Ending of of Section 5 "Feedback" content stylesheet */
+
+/* Beginning of Section 6 "Gallery" content stylesheet */
 .gallery_container {
     margin: 150px auto;
     padding: 0 15%;
@@ -758,6 +760,9 @@ body {
         }
     }
 }
+/* Ending of of Section 6 "Gallery" content stylesheet */
+
+/* Beginning of Section 7 "Subscribe" content stylesheet */
 .subscribe_container {
     padding: 0 15%;
     &_section {
@@ -819,8 +824,13 @@ body {
         }
     }
 }
+/* Ending of of Section 7 "Subscribe" content stylesheet */
 
-
+/* Beginning of Footer content stylesheet */
+.footer {
+    
+}
+/* Ending of of Footer content stylesheet */
 // media queries 479px
 @media (max-width: 479px) {
     body {
