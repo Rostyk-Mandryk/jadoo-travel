@@ -765,12 +765,13 @@ body {
 /* Beginning of Section 7 "Subscribe" content stylesheet */
 .subscribe_container {
     padding: 0 15%;
+    margin-bottom: 100px;
     &_section {
         position: relative;
         border-radius: 129px 20px 20px 20px;
         background-color: #f6f3fd; 
-        height: 407px;
         margin: 13px auto;
+        padding-bottom: 50px;
         .send {
             position: absolute;
             left: auto;
@@ -789,38 +790,42 @@ body {
             line-height: 54px;
         }
         &_email {
-            position: relative;
+            width: 100%;
             display: flex;
             justify-content: center;
             padding-top: 74px;
-            .icon_email {
-                position: absolute;
-                left: 310px;
-                top: 84px;
-                right: 0%;
-                bottom: 0%;
-                cursor: pointer;
-            }
-            #your_email {
-                width: 300px;
-                height: 40px;
-                border-radius: 7px;
-                margin: 0 5px 0 0;
-                border: none;
-                padding: 0 10%;
-            }
-            #sub_btn {
-                cursor: pointer;
-                width: 100px;
-                height: 40px;
-                border-radius: 7px;
-                border: none;
-                background: #FF946D;
-                color: wheat;
-                &:hover {
-                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            &_form {
+                width: 100%;
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                padding: 0 30px;
+                
+                #your_email_elem {
+                    height: 60px;
+                    width: 400px;
+                    border-radius: 7px; 
+                    margin-right: 20px; 
+                    border: none;
+                    border-left: 15px solid white;
+                    padding-left: 25px;
+                    background: url("/photo/Group\ 46.svg") no-repeat left white;
+                    background-size: 20px;
                 }
-            }
+                #sub_btn {                
+                    width: 150px;
+                    cursor: pointer;
+                    border-radius: 7px;
+                    border: none;
+                    background: #FF946D;
+                    color: wheat;
+                    &:hover {
+                        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    }
+                }
+            }     
         }
     }
 }
@@ -828,7 +833,114 @@ body {
 
 /* Beginning of Footer content stylesheet */
 .footer {
-    
+    padding: 0 15%;
+    display: flex;
+    justify-content: space-between;
+    &_name {
+        &_jadoo {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 44px;
+            line-height: 66px;
+            color: #181E4B;
+        }
+        &_book {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 125%;
+            color: #5E6282;
+            margin: 19px 0 0 0;
+        }
+    }
+    &_info {
+        display: flex;
+        flex-direction: row;
+        h4 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 21px;
+                line-height: 125%;
+                color: #080809;
+            }
+        a {
+                text-decoration: none;
+                margin: 12px 0 0 -7px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 125%;
+                color: #5E6282;
+                }
+        &_company {
+            margin: 20px 0 0 0;
+            .footer_company {
+                display: flex;
+                flex-direction: column;
+                margin-top: 25px;
+            }
+        }  
+        &_contact {
+            margin: 20px 0 0 72px;
+            &_company {
+                display: flex;
+                flex-direction: column;
+                margin-top: 25px;
+            }
+        } 
+        &_more {
+            margin: 20px 0 0 91px; 
+            &_company {
+                display: flex;
+                flex-direction: column;
+                margin-top: 25px;
+            }
+        }
+    }
+    &_social_media {
+        &_icon {
+            img {
+                // &:hover {
+                //     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+                //     background: conic-gradient(from 180deg at 50% 50%, #B8D2F1 0deg, #F289AA 60deg, #C68BF0 106.09deg, #D164DA 153.75deg, #C963E8 221.25deg, #BFC2E8 258.75deg, #FFC999 288.75deg, #D0D8C9 315deg, #BAD0F1 334.13deg, #CED8CB 358.97deg, rgba(255, 255, 255, 0) 360deg);
+                // }
+            }
+            
+        }
+        &_app {
+            margin-top: 28px;
+            p {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 125%;
+                color: #5E6282;
+            }
+           
+        }
+        &_apps_links {
+            padding: 16px 7px;
+          }
+    }
+}
+.rights {
+    text-align: center;
+    margin: 84px 0 79px 0;
+    a {
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 125%;
+        color: #5E6282;
+        
+    }
 }
 /* Ending of of Footer content stylesheet */
 // media queries 479px

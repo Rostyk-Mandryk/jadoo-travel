@@ -575,13 +575,14 @@ body {
 /* Ending of of Section 6 "Gallery" content stylesheet */
 /* Beginning of Section 7 "Subscribe" content stylesheet */
 .subscribe_container {
-  padding: 0 15%; }
+  padding: 0 15%;
+  margin-bottom: 100px; }
   .subscribe_container_section {
     position: relative;
     border-radius: 129px 20px 20px 20px;
     background-color: #f6f3fd;
-    height: 407px;
-    margin: 13px auto; }
+    margin: 13px auto;
+    padding-bottom: 50px; }
     .subscribe_container_section .send {
       position: absolute;
       left: auto;
@@ -598,37 +599,119 @@ body {
       font-size: 33px;
       line-height: 54px; }
     .subscribe_container_section_email {
-      position: relative;
+      width: 100%;
       display: flex;
       justify-content: center;
       padding-top: 74px; }
-      .subscribe_container_section_email .icon_email {
-        position: absolute;
-        left: 310px;
-        top: 84px;
-        right: 0%;
-        bottom: 0%;
-        cursor: pointer; }
-      .subscribe_container_section_email #your_email {
-        width: 300px;
-        height: 40px;
-        border-radius: 7px;
-        margin: 0 5px 0 0;
-        border: none;
-        padding: 0 10%; }
-      .subscribe_container_section_email #sub_btn {
-        cursor: pointer;
-        width: 100px;
-        height: 40px;
-        border-radius: 7px;
-        border: none;
-        background: #FF946D;
-        color: wheat; }
-        .subscribe_container_section_email #sub_btn:hover {
-          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
+      .subscribe_container_section_email_form {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0 30px; }
+        .subscribe_container_section_email_form #your_email_elem {
+          height: 60px;
+          width: 400px;
+          border-radius: 7px;
+          margin-right: 20px;
+          border: none;
+          border-left: 15px solid white;
+          padding-left: 25px;
+          background: url("/photo/Group 46.svg") no-repeat left white;
+          background-size: 20px; }
+        .subscribe_container_section_email_form #sub_btn {
+          width: 150px;
+          cursor: pointer;
+          border-radius: 7px;
+          border: none;
+          background: #FF946D;
+          color: wheat; }
+          .subscribe_container_section_email_form #sub_btn:hover {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
 
 /* Ending of of Section 7 "Subscribe" content stylesheet */
 /* Beginning of Footer content stylesheet */
+.footer {
+  padding: 0 15%;
+  display: flex;
+  justify-content: space-between; }
+  .footer_name_jadoo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 66px;
+    color: #181E4B; }
+  .footer_name_book {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 125%;
+    color: #5E6282;
+    margin: 19px 0 0 0; }
+  .footer_info {
+    display: flex;
+    flex-direction: row; }
+    .footer_info h4 {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 21px;
+      line-height: 125%;
+      color: #080809; }
+    .footer_info a {
+      text-decoration: none;
+      margin: 12px 0 0 -7px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 125%;
+      color: #5E6282; }
+    .footer_info_company {
+      margin: 20px 0 0 0; }
+      .footer_info_company .footer_company {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px; }
+    .footer_info_contact {
+      margin: 20px 0 0 72px; }
+      .footer_info_contact_company {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px; }
+    .footer_info_more {
+      margin: 20px 0 0 91px; }
+      .footer_info_more_company {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px; }
+  .footer_social_media_app {
+    margin-top: 28px; }
+    .footer_social_media_app p {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 125%;
+      color: #5E6282; }
+  .footer_social_media_apps_links {
+    padding: 16px 7px; }
+
+.rights {
+  text-align: center;
+  margin: 84px 0 79px 0; }
+  .rights a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 125%;
+    color: #5E6282; }
+
 /* Ending of of Footer content stylesheet */
 @media (max-width: 479px) {
   body {
