@@ -853,6 +853,29 @@ body {
     padding: 0 15%;
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 1400px) {
+        & {
+            flex-direction: column;
+
+            &_name {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 50px;
+            }
+
+            &_info {
+                justify-content: space-between;
+            }
+
+            &_social_media {
+                margin: 50px auto;
+            }
+        }
+    }
     &_name {
         &_jadoo {
             font-family: 'Poppins';
@@ -869,13 +892,27 @@ body {
             font-size: 13px;
             line-height: 125%;
             color: #5E6282;
-            margin: 19px 0 0 0;
         }
     }
+
+
+
     &_info {
         display: flex;
         flex-direction: row;
-        h4 {
+        @media (max-width: 700px) {
+            & {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        &_item {
+            margin: 0 40px;
+            width: 100px;
+            height: 150px;
+            h4 {
                 font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 700;
@@ -883,43 +920,58 @@ body {
                 line-height: 125%;
                 color: #080809;
             }
-        a {
-                text-decoration: none;
-                margin: 12px 0 0 -7px;
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 18px;
-                line-height: 125%;
-                color: #5E6282;
+
+            ul {
+                list-style-type: none;
+
+                li {
+                    margin-top: 10px;
+                    text-decoration: none;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 125%;
+                    color: #5E6282;
                 }
-        &_company {
-            margin: 20px 0 0 0;
-            .footer_company {
-                display: flex;
-                flex-direction: column;
-                margin-top: 25px;
-            }
-        }  
-        &_contact {
-            margin: 20px 0 0 72px;
-            &_company {
-                display: flex;
-                flex-direction: column;
-                margin-top: 25px;
-            }
-        } 
-        &_more {
-            margin: 20px 0 0 91px; 
-            &_company {
-                display: flex;
-                flex-direction: column;
-                margin-top: 25px;
             }
         }
     }
+
     &_social_media {
         &_icon {
+            
+            button {
+                margin-right: 26px;
+                cursor: pointer;
+                width: 41px;
+                height: 41px;
+                background-color: #ffffff;
+                box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 50%;
+                border: none;  
+            }
+            &_button_facebook{
+                &:hover {
+                    transform: scale(1.3);
+                    background: linear-gradient(8deg, rgba(47,107,217,1) 4%, rgba(47,107,217,1) 13%, rgba(73,136,220,1) 59%, rgba(69,138,227,1) 65%, rgba(127,176,232,1) 93%, rgba(136,200,240,1) 100%);
+                    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;                
+                }
+            }
+            &_button_instagram {
+                &:hover {
+                    transform: scale(1.3);
+                    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+                    background: conic-gradient(from 180deg at 50% 50%, #B8D2F1 0deg, #F289AA 60deg, #C68BF0 106.09deg, #D164DA 153.75deg, #C963E8 221.25deg, #BFC2E8 258.75deg, #FFC999 288.75deg, #D0D8C9 315deg, #BAD0F1 334.13deg, #CED8CB 358.97deg, rgba(255, 255, 255, 0) 360deg);
+                }
+            }
+            &_button_twitter {
+                &:hover {
+                    transform: scale(1.3);
+                    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+                    background-color: #1DA1F2;                    
+                }
+            }
             img {
                 // &:hover {
                 //     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
@@ -930,6 +982,7 @@ body {
         }
         &_app {
             margin-top: 28px;
+            padding-left: 15px;
             p {
                 font-family: 'Poppins';
                 font-style: normal;
@@ -942,6 +995,13 @@ body {
         }
         &_apps_links {
             padding: 16px 7px;
+            img {
+                border-radius: 17.5px;
+                &:hover {
+                    transform: scale(1.05);
+                    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;                
+                }
+            }
           }
     }
     @media (max-width: 479px) {
@@ -950,14 +1010,10 @@ body {
             flex-direction: column;
             &_name {
                 text-align: center;
-                &_book {
-                    margin: 19px 0 20px 60px;
-                }
             }
             &_info {
                 display: flex;
                 flex-direction: column;
-                padding: 0 5%;
             }
         }
     }
