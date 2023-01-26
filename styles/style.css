@@ -177,7 +177,7 @@ body {
       position: absolute;
       right: -100px;
       bottom: -70px; }
-      @media (max-width: 600px) {
+      @media (max-width: 660px) {
         .services_container_content_dekore {
           bottom: -125px;
           right: -50px;
@@ -709,7 +709,7 @@ body {
     right: -95px;
     bottom: -70px;
     z-index: 1; }
-    @media (max-width: 479px) {
+    @media (max-width: 660px) {
       .subscribe_container_plus {
         right: -55px;
         bottom: -70px; } }
