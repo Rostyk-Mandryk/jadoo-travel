@@ -4,18 +4,18 @@
   box-sizing: border-box; }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-image: url(./../photo/Image.png), url(./../photo/Decore.png), url(./../photo/Ellipse.png);
   background-repeat: no-repeat;
-  background-position-x: right,right,left;
-  background-size: 640px,700px 581px,230px;
-  background-position-y: 100px,0px,top;
-  background-position-x: 80%, right ,right; }
+  background-position-x: right, right, left;
+  background-size: 640px, 700px 581px, 230px;
+  background-position-y: 100px, 0px, top;
+  background-position-x: 80%, right, right; }
 
 /* Beginning of Header content stylesheet */
 /* Beginning of Header content stylesheet */
 .header_container {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding: 0px 15%;
   padding-top: 47px;
   height: 40px;
@@ -29,6 +29,7 @@ body {
     top: 200px;
     right: -500px;
     animation: sky 10s linear 0s infinite reverse;
+    animation-iteration-count: 1;
     z-index: 99; }
   .header_container .sky img {
     width: 200px;
@@ -66,8 +67,8 @@ body {
         flex-direction: column;
         text-align: center;
         margin-top: 20px;
-        color: #FFFFFF;
-        font-family: 'Open Sans', sans-serif; }
+        color: #ffffff;
+        font-family: "Open Sans", sans-serif; }
   .header_container .logo {
     cursor: pointer; }
   .header_container .nav_bar {
@@ -138,22 +139,22 @@ body {
   justify-content: center;
   height: 764px; }
   .hero_container_title {
-    font-family: 'Poppins', sans-serif;
-    color: #DF6951;
+    font-family: "Poppins", sans-serif;
+    color: #df6951;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px; }
   .hero_container_description {
     padding-top: 24px;
-    font-family: 'Volkhov', serif;
-    color: #181E4B;
+    font-family: "Volkhov", serif;
+    color: #181e4b;
     font-weight: 700;
     font-size: 84px;
     line-height: 89px; }
   .hero_container_text {
     padding-top: 30px;
-    font-family: 'Poppins', sans-serif;
-    color: #5E6282;
+    font-family: "Poppins", sans-serif;
+    color: #5e6282;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px; }
@@ -171,8 +172,8 @@ body {
     font-weight: 500;
     font-size: 18px;
     line-height: 23px;
-    font-family: 'Open Sans', sans-serif;
-    color: #FFFFFF; }
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff; }
   .hero_container_play {
     padding: 0 2%;
     display: flex;
@@ -181,8 +182,8 @@ body {
   .hero_container_play img {
     padding-top: 38px; }
   .hero_container_play p {
-    font-family: 'Poppins', sans-serif;
-    color: #686D77;
+    font-family: "Poppins", sans-serif;
+    color: #686d77;
     font-weight: 500;
     font-size: 17px;
     line-height: 26px; }
@@ -215,15 +216,15 @@ body {
           right: -50px;
           z-index: -1; } }
   .services_container_category {
-    font-family: 'Poppins', sans-serif;
-    color: #5E6282;
+    font-family: "Poppins", sans-serif;
+    color: #5e6282;
     font-weight: 600;
     font-size: 18px;
     line-height: 27px; }
   .services_container_title {
     padding-top: 10px;
-    font-family: 'Volkhov', serif;
-    color: #14183E;
+    font-family: "Volkhov", serif;
+    color: #14183e;
     font-weight: 700;
     font-size: 50px;
     line-height: 64px; }
@@ -242,15 +243,15 @@ body {
         height: 5rem; }
       .services_container_categori_cards_title {
         padding-top: 30px;
-        font-family: 'Open Sans', sans-serif;
-        color: #1E1D4C;
+        font-family: "Open Sans", sans-serif;
+        color: #1e1d4c;
         font-size: 20px;
         font-weight: 600;
         line-height: 27px; }
       .services_container_categori_cards_desc {
         margin-bottom: 30px;
-        font-family: 'Poppins', sans-serif;
-        color: #5E6282;
+        font-family: "Poppins", sans-serif;
+        color: #5e6282;
         font-weight: 500;
         font-size: 16px;
         line-height: 26px; }
@@ -277,15 +278,15 @@ body {
     flex-direction: column;
     align-items: center; }
   .destination_container_selling {
-    font-family: 'Poppins', sans-serif;
-    color: #5E6282;
+    font-family: "Poppins", sans-serif;
+    color: #5e6282;
     font-weight: 600;
     font-size: 18px;
     line-height: 27px; }
   .destination_container_title {
     padding-top: 8px;
-    font-family: 'Volkhov', serif;
-    color: #181E4B;
+    font-family: "Volkhov", serif;
+    color: #181e4b;
     font-weight: 700;
     font-size: 50px;
     line-height: 64px;
@@ -318,15 +319,15 @@ body {
       display: flex;
       justify-content: space-between; }
       .destination_container_categori_name_and_price .country {
-        font-family: 'Poppins', sans-serif;
-        color: #5E6282;
+        font-family: "Poppins", sans-serif;
+        color: #5e6282;
         font-weight: 500;
         font-size: 18px;
         line-height: 125%; }
       .destination_container_categori_name_and_price .price {
         height: 22px;
-        font-family: 'Poppins', sans-serif;
-        color: #5E6282;
+        font-family: "Poppins", sans-serif;
+        color: #5e6282;
         font-weight: 500;
         font-size: 18px;
         line-height: 125%; }
@@ -335,8 +336,8 @@ body {
       display: flex; }
       .destination_container_categori_trip_duration .days {
         height: 20px;
-        font-family: 'Poppins', sans-serif;
-        color: #5E6282;
+        font-family: "Poppins", sans-serif;
+        color: #5e6282;
         font-weight: 500;
         font-size: 16px;
         line-height: 125%; }
@@ -359,15 +360,15 @@ body {
   .bookatrip_container_content {
     padding-top: 186px; }
     .bookatrip_container_content_easy {
-      font-family: 'Poppins', sans-serif;
-      color: #5E6282;
+      font-family: "Poppins", sans-serif;
+      color: #5e6282;
       font-weight: 600;
       font-size: 18px;
       line-height: 27px; }
     .bookatrip_container_content_steps {
       padding-top: 15px;
-      font-family: 'Volkhov', serif;
-      color: #14183E;
+      font-family: "Volkhov", serif;
+      color: #14183e;
       font-weight: 700;
       font-size: 50px;
       line-height: 64px; }
@@ -380,15 +381,15 @@ body {
     .bookatrip_container_values_icon_content {
       padding: 0 5%; }
       .bookatrip_container_values_icon_content_head {
-        font-family: 'Poppins', sans-serif;
-        color: #5E6282;
+        font-family: "Poppins", sans-serif;
+        color: #5e6282;
         font-weight: 700;
         font-size: 16px;
         line-height: 125%; }
       .bookatrip_container_values_icon_content_title {
         padding-top: 4px;
-        font-family: 'Poppins', sans-serif;
-        color: #5E6282;
+        font-family: "Poppins", sans-serif;
+        color: #5e6282;
         font-weight: 400;
         font-size: 16px;
         line-height: 125%; }
@@ -407,15 +408,15 @@ body {
     .bookatrip_container_card_content {
       padding: 0 8%; }
       .bookatrip_container_card_content .greece {
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
         color: #080809;
         font-weight: 500;
         font-size: 18px;
         line-height: 125%; }
       .bookatrip_container_card_content .joseph {
         padding-top: 13px;
-        font-family: 'Poppins', sans-serif;
-        color: #84829A;
+        font-family: "Poppins", sans-serif;
+        color: #84829a;
         font-weight: 500;
         font-size: 16px;
         line-height: 125%; }
@@ -431,8 +432,8 @@ body {
       padding: 20px 0 31px 8%;
       display: flex; }
       .bookatrip_container_card_people_text {
-        font-family: 'Poppins', sans-serif;
-        color: #84829A;
+        font-family: "Poppins", sans-serif;
+        color: #84829a;
         font-weight: 500;
         font-size: 16px;
         line-height: 125%; }
@@ -444,7 +445,7 @@ body {
     position: absolute;
     bottom: 53px;
     right: -106px;
-    background: #FFFFFF;
+    background: #ffffff;
     width: 263px;
     height: 129px;
     box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
@@ -456,26 +457,26 @@ body {
       padding: 0 12px; }
       .bookatrip_container_ongoing_content .ongo {
         padding-top: 16px;
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
         font-weight: 500;
         font-size: 14px;
         line-height: 125%; }
       .bookatrip_container_ongoing_content .rome {
         padding-top: 6px;
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
         color: #080809;
         font-weight: 500;
         font-size: 18px;
         line-height: 125%; }
       .bookatrip_container_ongoing_content .purpur {
         padding-top: 14px;
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
         font-weight: 500;
         font-size: 14px;
         line-height: 125%;
-        color: #8A79DF; }
+        color: #8a79df; }
       .bookatrip_container_ongoing_content .completed {
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
         font-weight: 500;
         font-size: 14px;
         line-height: 125%;
@@ -483,13 +484,13 @@ body {
       .bookatrip_container_ongoing_content .line {
         margin-top: 10px;
         border-radius: 30px;
-        background: #F5F5F5;
+        background: #f5f5f5;
         height: 5px; }
       .bookatrip_container_ongoing_content .forty {
         border-radius: 30px;
         height: 100%;
         width: 40%;
-        background-color: #8A79DF; }
+        background-color: #8a79df; }
   @media (max-width: 479px) {
     .bookatrip_container {
       flex-direction: column;
@@ -532,23 +533,23 @@ body {
   justify-content: space-between;
   padding: 0 15%; }
   .feedback_container_heading_title {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 18px;
     line-height: 27px;
     text-transform: uppercase;
-    color: #5E6282;
+    color: #5e6282;
     padding-bottom: 20px; }
   .feedback_container_heading_description {
     width: 410px;
-    font-family: 'Volkhov', serif;
+    font-family: "Volkhov", serif;
     font-weight: 700;
     font-size: 50px;
     line-height: 64px;
     text-transform: capitalize;
-    color: #14183E; }
+    color: #14183e; }
   .feedback_container_card {
     margin-left: 50px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     height: 250px;
     width: 504px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -562,19 +563,19 @@ body {
       font-weight: 500;
       font-size: 16px;
       line-height: 32px;
-      color: #5E6282; }
+      color: #5e6282; }
     .feedback_container_card_id_name {
       font-weight: 600;
       font-size: 18px;
       line-height: 27px;
-      color: #5E6282; }
+      color: #5e6282; }
     .feedback_container_card_id_location {
-      font-family: 'Poppins';
+      font-family: "Poppins";
       font-style: normal;
       font-weight: 500;
       font-size: 14px;
       line-height: 21px;
-      color: #5E6282; }
+      color: #5e6282; }
     .feedback_container_card_image {
       position: absolute;
       top: -40px;
@@ -686,9 +687,9 @@ body {
       cursor: pointer; }
     .subscribe_container_section .subscribe {
       padding: 79px 20px 0;
-      font-family: 'Poppins';
+      font-family: "Poppins";
       text-align: center;
-      color: #5E6282;
+      color: #5e6282;
       font-weight: 600;
       font-size: 33px;
       line-height: 54px; }
@@ -719,7 +720,7 @@ body {
           cursor: pointer;
           border-radius: 7px;
           border: none;
-          background: #FF946D;
+          background: #ff946d;
           color: wheat; }
           .subscribe_container_section_email_form #sub_btn:hover {
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
@@ -767,19 +768,19 @@ body {
       .footer_social_media {
         margin: 50px auto; } }
   .footer_name_jadoo {
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-weight: 500;
     font-size: 44px;
     line-height: 66px;
-    color: #181E4B; }
+    color: #181e4b; }
   .footer_name_book {
     width: 207px;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
     line-height: 125%;
-    color: #5E6282; }
+    color: #5e6282; }
   .footer_info {
     display: flex;
     flex-direction: row; }
@@ -796,7 +797,7 @@ body {
         .footer_info_item {
           margin-top: 20px; } }
       .footer_info_item h4 {
-        font-family: 'Poppins';
+        font-family: "Poppins";
         font-style: normal;
         font-weight: 700;
         font-size: 21px;
@@ -809,12 +810,12 @@ body {
           width: 114px;
           margin-top: 10px;
           text-decoration: none;
-          font-family: 'Poppins';
+          font-family: "Poppins";
           font-style: normal;
           font-weight: 500;
           font-size: 18px;
           line-height: 125%;
-          color: #5E6282; }
+          color: #5e6282; }
   .footer_social_media_icon button {
     margin-right: 26px;
     cursor: pointer;
@@ -831,24 +832,24 @@ body {
   .footer_social_media_icon_button_instagram:hover {
     transform: scale(1.3);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    background: conic-gradient(from 180deg at 50% 50%, #B8D2F1 0deg, #F289AA 60deg, #C68BF0 106.09deg, #D164DA 153.75deg, #C963E8 221.25deg, #BFC2E8 258.75deg, #FFC999 288.75deg, #D0D8C9 315deg, #BAD0F1 334.13deg, #CED8CB 358.97deg, rgba(255, 255, 255, 0) 360deg); }
+    background: conic-gradient(from 180deg at 50% 50%, #b8d2f1 0deg, #f289aa 60deg, #c68bf0 106.09deg, #d164da 153.75deg, #c963e8 221.25deg, #bfc2e8 258.75deg, #ffc999 288.75deg, #d0d8c9 315deg, #bad0f1 334.13deg, #ced8cb 358.97deg, rgba(255, 255, 255, 0) 360deg); }
   .footer_social_media_icon_button_twitter:hover {
     transform: scale(1.3);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    background-color: #1DA1F2; }
+    background-color: #1da1f2; }
   .footer_social_media_icon img:hover {
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-    background: conic-gradient(from 180deg at 50% 50%, #B8D2F1 0deg, #F289AA 60deg, #C68BF0 106.09deg, #D164DA 153.75deg, #C963E8 221.25deg, #BFC2E8 258.75deg, #FFC999 288.75deg, #D0D8C9 315deg, #BAD0F1 334.13deg, #CED8CB 358.97deg, rgba(255, 255, 255, 0) 360deg); }
+    background: conic-gradient(from 180deg at 50% 50%, #b8d2f1 0deg, #f289aa 60deg, #c68bf0 106.09deg, #d164da 153.75deg, #c963e8 221.25deg, #bfc2e8 258.75deg, #ffc999 288.75deg, #d0d8c9 315deg, #bad0f1 334.13deg, #ced8cb 358.97deg, rgba(255, 255, 255, 0) 360deg); }
   .footer_social_media_app {
     margin-top: 28px;
     padding-left: 15px; }
     .footer_social_media_app p {
-      font-family: 'Poppins';
+      font-family: "Poppins";
       font-style: normal;
       font-weight: 500;
       font-size: 20px;
       line-height: 125%;
-      color: #5E6282; }
+      color: #5e6282; }
   .footer_social_media_apps_links {
     padding: 16px 7px; }
     .footer_social_media_apps_links img {
@@ -871,19 +872,19 @@ body {
   margin: 84px 0 79px 0; }
   .rights a {
     text-decoration: none;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 125%;
-    color: #5E6282; }
+    color: #5e6282; }
 
 /* Ending of of Footer content stylesheet */
 @media (max-width: 479px) {
   body {
-    background-size: 329px,468px 200px,530px;
-    background-position-y: 95px,0px,top;
-    background-position-x: 13%, right ,right; }
+    background-size: 329px, 468px 200px, 530px;
+    background-position-y: 95px, 0px, top;
+    background-position-x: 13%, right, right; }
   .nav_bar_item {
     display: none; }
   .reg_container a {
@@ -907,14 +908,17 @@ body {
     font-size: 0.8rem; }
   .hero_container_play p {
     font-size: 0.8rem; }
-  .services_container_content h2, .services_container h3 {
+  .services_container_content h2,
+  .services_container h3 {
     text-align: center;
     font-size: 0.8rem;
     line-height: 15px; }
   .services_container_categori {
     display: flex;
     flex-direction: column; }
-  .services_container_cards img, .services_container h4, .services_container p {
+  .services_container_cards img,
+  .services_container h4,
+  .services_container p {
     padding-top: 2px;
     font-size: 1.2rem;
     line-height: 25px; }
