@@ -179,7 +179,9 @@ body {
       bottom: -70px; }
       @media (max-width: 600px) {
         .services_container_content_dekore {
-          bottom: -115px; } }
+          bottom: -125px;
+          right: -50px;
+          z-index: -1; } }
   .services_container_category {
     font-family: 'Poppins', sans-serif;
     color: #5E6282;
@@ -707,6 +709,10 @@ body {
     right: -95px;
     bottom: -70px;
     z-index: 1; }
+    @media (max-width: 479px) {
+      .subscribe_container_plus {
+        right: -55px;
+        bottom: -70px; } }
 
 /* Ending of of Section 7 "Subscribe" content stylesheet */
 /* Beginning of Footer content stylesheet */

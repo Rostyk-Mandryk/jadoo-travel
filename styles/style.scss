@@ -227,7 +227,9 @@ body {
             bottom: -70px;
             @media (max-width: 600px) {
                 & {
-                    bottom: -115px;
+                    bottom: -125px;
+                    right: -50px;
+                    z-index: -1;
                 }
             }
         }
@@ -944,6 +946,12 @@ body {
         right: -95px;
         bottom: -70px;
         z-index: 1;
+        @media (max-width: 479px) {
+            & {
+                right: -55px;
+                bottom: -70px;
+            }
+        }
     }
 }
 /* Ending of of Section 7 "Subscribe" content stylesheet */
