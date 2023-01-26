@@ -199,10 +199,38 @@ body {
 .services_container {
     padding-top: 105px;
     padding: 0 15%;
+
+    @media (max-width: 1200px) {
+        .services_container {
+            
+            &_content h2 {
+                text-align: center;
+                font-size: 0.8rem; 
+                line-height: 23px;
+            }
+            &_categori {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+    }
+
     &_content {
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: relative;
+        &_dekore {
+            position: absolute;
+            right: -100px;
+            bottom: -70px;
+            @media (max-width: 600px) {
+                & {
+                    bottom: -115px;
+                }
+            }
+        }
     }
     &_category {    
         font-family: 'Poppins', sans-serif;
@@ -222,11 +250,15 @@ body {
     &_categori {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         &_cards {
             position: relative;
             padding-top: 110px;
             text-align: center;
             transition: 1s;
+            width: 240px;
+            cursor: pointer;
+
             .cards_vector {
                 height: 5rem;
             }
@@ -247,16 +279,25 @@ body {
                 line-height: 26px;
             }
             &_decore{
+                display: none;
                 position: absolute;
                 z-index: -1;
-                left: 0;
-                bottom: 0;
+                left: -80px;
+                bottom: -50px;
             }
+
+            &:hover {
+                .services_container_categori_cards_decore {
+                    display: block;
+                }
+            }
+
             &:hover {
                 width: 240px;
                 border-radius: 36px;
                 box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
             }
+        }
     }
 }
 /* Ending of of Section 2 "Services" content stylesheet */
@@ -271,7 +312,6 @@ body {
         align-items: center;
     }
     &_selling {
-        padding-top: 123px;
         font-family: 'Poppins', sans-serif;
         color: #5E6282;
         font-weight: 600;
@@ -422,6 +462,7 @@ body {
         position: relative;
         border-radius: 1.5rem;
         box-shadow: 0 20px 30px -1px rgba(0, 0, 0, 0.15); 
+        box-shadow: #ffffff 0px 0px 0px, #59b0e673 100px -50px 100px, #ffffff 0px 0px 0px, #ffffff 0px 0px 0px, #ffffff 0px 0px 0px;
         margin-top: 264px;
         &_girl {
             cursor: pointer;
@@ -806,21 +847,6 @@ body {
             font-size: 0.875rem; 
         }
     }
-
-    .services_container {
-        
-        &_content h2 {
-            text-align: center;
-            font-size: 0.8rem; 
-            line-height: 23px;
-        }
-        &_categori {
-            height: 1200px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-    }
     .destination_container {
         &_title {
             font-size: 40px;
@@ -901,7 +927,7 @@ body {
         left: -100px;
         top: 81px;
         z-index: -1;
-        @media (max-width: 900px) {
+        @media (max-width: 1000px) {
             & {
                 display: none;
             }
@@ -909,14 +935,15 @@ body {
     }
     &_dekore_1 {
         position: absolute;
-        left: 743px;
+        right: 0;
         top: 0px;
         z-index: -1;
-        @media (max-width: 900px) {
-            & {
-                display: none;
-            }
-        }
+    }
+    &_plus {
+        position: absolute;
+        right: -95px;
+        bottom: -70px;
+        z-index: 1;
     }
 }
 /* Ending of of Section 7 "Subscribe" content stylesheet */
