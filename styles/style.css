@@ -234,7 +234,8 @@ body {
     justify-content: space-between;
     flex-wrap: wrap; }
     .destination_container_categori .cards_option {
-      cursor: pointer; }
+      cursor: pointer;
+      border-radius: 24px; }
     .destination_container_categori_cards {
       margin: 20px auto;
       height: 457px;
@@ -243,6 +244,13 @@ body {
       .destination_container_categori_cards:hover {
         transform: scale(1.02);
         box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; }
+      .destination_container_categori_cards.full_europe_categori {
+        position: relative; }
+        .destination_container_categori_cards.full_europe_categori .full_europe_categori_decore {
+          position: absolute;
+          z-index: -1;
+          top: 70px;
+          right: -60px; }
     .destination_container_categori_name_and_price {
       padding: 27px 8%;
       display: flex;
@@ -270,6 +278,13 @@ body {
         font-weight: 500;
         font-size: 16px;
         line-height: 125%; }
+    .destination_container_categori_decore {
+      position: absolute;
+      top: 145px;
+      left: 1000px;
+      right: 0;
+      bottom: 0;
+      z-index: 0; }
 
 /* Ending of of Section 3 Destinations" content stylesheet */
 /* Beginning of Section 4 "Book a trip" content stylesheet */
@@ -624,7 +639,7 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        padding: 0 30px; }
+        padding: 35px 30px; }
         .subscribe_container_section_email_form #your_email_elem {
           height: 60px;
           width: 400px;
