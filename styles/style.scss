@@ -30,6 +30,7 @@ body {
     justify-content: space-between;
     align-items: center;
 
+
     #burget_menu_icon {
         position: relative;
         display: none;
@@ -42,13 +43,23 @@ body {
         }
 
         #burget_menu {
-            display: none;
             position: absolute;
-            width: 100px;
-            background-color: yellow;
-            left: -40px;
+            width: 200px;
+            height: 300px;
+            background-color: rgba(241, 165, 1, 0.98);
+            left: -90px;
+            a {
+                text-decoration: none;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                margin-top: 20px;
+                color: #FFFFFF;
+                font-family: 'Open Sans', sans-serif;
+            }
         }
     }
+    
 
     .logo {
         cursor: pointer;
