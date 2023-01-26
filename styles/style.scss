@@ -167,7 +167,6 @@ body {
         width: 170px;
         height: 60px;
         background-color: #f1a501;
-        box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
         border-radius: 10px;
         border: none;
         font-weight: 500;
@@ -414,10 +413,10 @@ body {
         }
     }
     &_card {
+        position: relative;
         border-radius: 1.5rem;
         box-shadow: 0 20px 30px -1px rgba(0, 0, 0, 0.15); 
         margin-top: 264px;
-        position: relative;
         &_girl {
             cursor: pointer;
             padding: 20px 25px;
@@ -475,6 +474,15 @@ body {
                   margin-left: 40%;
                 }
             }
+        }
+        &_gradient {
+            z-index: 0;
+            position: absolute;
+            width: 354px;
+            height: 367px;
+            top: 0;
+            left: 0;
+            background: #101010;
         }
     }
     &_ongoing {
@@ -945,8 +953,10 @@ body {
 
             ul {
                 list-style-type: none;
+                padding-top: 34px;
 
                 li {
+                    width: 114px;
                     margin-top: 10px;
                     text-decoration: none;
                     font-family: 'Poppins';
