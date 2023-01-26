@@ -20,6 +20,7 @@ body {
     
 }
 /* Beginning of Header content stylesheet */
+/* Beginning of Header content stylesheet */
 .header_container {
     font-family: 'Open Sans', sans-serif;
     padding: 0px 15%;
@@ -29,6 +30,23 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+
+    .sky {
+        position: absolute;
+        top: 200px;
+        right: -500px;
+        animation: sky 10s linear 0s infinite reverse;
+        z-index: 99;
+    }
+    .sky img{
+        width: 200px;
+        transform: rotate(30deg);
+    }
+    @keyframes sky {
+        from {right:-500px;}
+        to {right: 102%;}
+    }
 
 
     #burget_menu_icon {

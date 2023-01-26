@@ -13,6 +13,7 @@ body {
   background-position-x: 80%, right ,right; }
 
 /* Beginning of Header content stylesheet */
+/* Beginning of Header content stylesheet */
 .header_container {
   font-family: 'Open Sans', sans-serif;
   padding: 0px 15%;
@@ -21,7 +22,23 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
+  .header_container .sky {
+    position: absolute;
+    top: 200px;
+    right: -500px;
+    animation: sky 10s linear 0s infinite reverse;
+    z-index: 99; }
+  .header_container .sky img {
+    width: 200px;
+    transform: rotate(30deg); }
+
+@keyframes sky {
+  from {
+    right: -500px; }
+  to {
+    right: 102%; } }
   .header_container #burget_menu_icon {
     position: relative;
     display: none;
